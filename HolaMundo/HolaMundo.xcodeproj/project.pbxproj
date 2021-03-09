@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		776163D925E15BDD002D4BF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776163D825E15BDD002D4BF1 /* AppDelegate.swift */; };
+		776163DB25E15BDD002D4BF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776163DA25E15BDD002D4BF1 /* SceneDelegate.swift */; };
+		776163DD25E15BDD002D4BF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776163DC25E15BDD002D4BF1 /* ViewController.swift */; };
+		776163E025E15BDD002D4BF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 776163DE25E15BDD002D4BF1 /* Main.storyboard */; };
+		776163E325E15BDD002D4BF1 /* HolaMundo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 776163E125E15BDD002D4BF1 /* HolaMundo.xcdatamodeld */; };
+		776163E525E15BDE002D4BF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 776163E425E15BDE002D4BF1 /* Assets.xcassets */; };
+		776163E825E15BDE002D4BF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 776163E625E15BDE002D4BF1 /* LaunchScreen.storyboard */; };
+		776163F325E15BDE002D4BF1 /* HolaMundoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776163F225E15BDE002D4BF1 /* HolaMundoTests.swift */; };
+		776163FE25E15BDE002D4BF1 /* HolaMundoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776163FD25E15BDE002D4BF1 /* HolaMundoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		776163EF25E15BDE002D4BF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 776163CD25E15BDD002D4BF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 776163D425E15BDD002D4BF1;
+			remoteInfo = HolaMundo;
+		};
+		776163FA25E15BDE002D4BF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 776163CD25E15BDD002D4BF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 776163D425E15BDD002D4BF1;
+			remoteInfo = HolaMundo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		776163D525E15BDD002D4BF1 /* HolaMundo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HolaMundo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		776163D825E15BDD002D4BF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		776163DA25E15BDD002D4BF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		776163DC25E15BDD002D4BF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		776163DF25E15BDD002D4BF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		776163E225E15BDD002D4BF1 /* HolaMundo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HolaMundo.xcdatamodel; sourceTree = "<group>"; };
+		776163E425E15BDE002D4BF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		776163E725E15BDE002D4BF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		776163E925E15BDE002D4BF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		776163EE25E15BDE002D4BF1 /* HolaMundoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolaMundoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		776163F225E15BDE002D4BF1 /* HolaMundoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolaMundoTests.swift; sourceTree = "<group>"; };
+		776163F425E15BDE002D4BF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		776163F925E15BDE002D4BF1 /* HolaMundoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolaMundoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		776163FD25E15BDE002D4BF1 /* HolaMundoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolaMundoUITests.swift; sourceTree = "<group>"; };
+		776163FF25E15BDE002D4BF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		776163D225E15BDD002D4BF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776163EB25E15BDE002D4BF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776163F625E15BDE002D4BF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		776163CC25E15BDD002D4BF1 = {
+			isa = PBXGroup;
+			children = (
+				776163D725E15BDD002D4BF1 /* HolaMundo */,
+				776163F125E15BDE002D4BF1 /* HolaMundoTests */,
+				776163FC25E15BDE002D4BF1 /* HolaMundoUITests */,
+				776163D625E15BDD002D4BF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		776163D625E15BDD002D4BF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				776163D525E15BDD002D4BF1 /* HolaMundo.app */,
+				776163EE25E15BDE002D4BF1 /* HolaMundoTests.xctest */,
+				776163F925E15BDE002D4BF1 /* HolaMundoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		776163D725E15BDD002D4BF1 /* HolaMundo */ = {
+			isa = PBXGroup;
+			children = (
+				776163D825E15BDD002D4BF1 /* AppDelegate.swift */,
+				776163DA25E15BDD002D4BF1 /* SceneDelegate.swift */,
+				776163DC25E15BDD002D4BF1 /* ViewController.swift */,
+				776163DE25E15BDD002D4BF1 /* Main.storyboard */,
+				776163E425E15BDE002D4BF1 /* Assets.xcassets */,
+				776163E625E15BDE002D4BF1 /* LaunchScreen.storyboard */,
+				776163E925E15BDE002D4BF1 /* Info.plist */,
+				776163E125E15BDD002D4BF1 /* HolaMundo.xcdatamodeld */,
+			);
+			path = HolaMundo;
+			sourceTree = "<group>";
+		};
+		776163F125E15BDE002D4BF1 /* HolaMundoTests */ = {
+			isa = PBXGroup;
+			children = (
+				776163F225E15BDE002D4BF1 /* HolaMundoTests.swift */,
+				776163F425E15BDE002D4BF1 /* Info.plist */,
+			);
+			path = HolaMundoTests;
+			sourceTree = "<group>";
+		};
+		776163FC25E15BDE002D4BF1 /* HolaMundoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				776163FD25E15BDE002D4BF1 /* HolaMundoUITests.swift */,
+				776163FF25E15BDE002D4BF1 /* Info.plist */,
+			);
+			path = HolaMundoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		776163D425E15BDD002D4BF1 /* HolaMundo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7761640225E15BDE002D4BF1 /* Build configuration list for PBXNativeTarget "HolaMundo" */;
+			buildPhases = (
+				776163D125E15BDD002D4BF1 /* Sources */,
+				776163D225E15BDD002D4BF1 /* Frameworks */,
+				776163D325E15BDD002D4BF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HolaMundo;
+			productName = HolaMundo;
+			productReference = 776163D525E15BDD002D4BF1 /* HolaMundo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		776163ED25E15BDE002D4BF1 /* HolaMundoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7761640525E15BDE002D4BF1 /* Build configuration list for PBXNativeTarget "HolaMundoTests" */;
+			buildPhases = (
+				776163EA25E15BDE002D4BF1 /* Sources */,
+				776163EB25E15BDE002D4BF1 /* Frameworks */,
+				776163EC25E15BDE002D4BF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				776163F025E15BDE002D4BF1 /* PBXTargetDependency */,
+			);
+			name = HolaMundoTests;
+			productName = HolaMundoTests;
+			productReference = 776163EE25E15BDE002D4BF1 /* HolaMundoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		776163F825E15BDE002D4BF1 /* HolaMundoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7761640825E15BDE002D4BF1 /* Build configuration list for PBXNativeTarget "HolaMundoUITests" */;
+			buildPhases = (
+				776163F525E15BDE002D4BF1 /* Sources */,
+				776163F625E15BDE002D4BF1 /* Frameworks */,
+				776163F725E15BDE002D4BF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				776163FB25E15BDE002D4BF1 /* PBXTargetDependency */,
+			);
+			name = HolaMundoUITests;
+			productName = HolaMundoUITests;
+			productReference = 776163F925E15BDE002D4BF1 /* HolaMundoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		776163CD25E15BDD002D4BF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					776163D425E15BDD002D4BF1 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					776163ED25E15BDE002D4BF1 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 776163D425E15BDD002D4BF1;
+					};
+					776163F825E15BDE002D4BF1 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 776163D425E15BDD002D4BF1;
+					};
+				};
+			};
+			buildConfigurationList = 776163D025E15BDD002D4BF1 /* Build configuration list for PBXProject "HolaMundo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 776163CC25E15BDD002D4BF1;
+			productRefGroup = 776163D625E15BDD002D4BF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				776163D425E15BDD002D4BF1 /* HolaMundo */,
+				776163ED25E15BDE002D4BF1 /* HolaMundoTests */,
+				776163F825E15BDE002D4BF1 /* HolaMundoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		776163D325E15BDD002D4BF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776163E825E15BDE002D4BF1 /* LaunchScreen.storyboard in Resources */,
+				776163E525E15BDE002D4BF1 /* Assets.xcassets in Resources */,
+				776163E025E15BDD002D4BF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776163EC25E15BDE002D4BF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776163F725E15BDE002D4BF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		776163D125E15BDD002D4BF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776163DD25E15BDD002D4BF1 /* ViewController.swift in Sources */,
+				776163E325E15BDD002D4BF1 /* HolaMundo.xcdatamodeld in Sources */,
+				776163D925E15BDD002D4BF1 /* AppDelegate.swift in Sources */,
+				776163DB25E15BDD002D4BF1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776163EA25E15BDE002D4BF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776163F325E15BDE002D4BF1 /* HolaMundoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776163F525E15BDE002D4BF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776163FE25E15BDE002D4BF1 /* HolaMundoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		776163F025E15BDE002D4BF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 776163D425E15BDD002D4BF1 /* HolaMundo */;
+			targetProxy = 776163EF25E15BDE002D4BF1 /* PBXContainerItemProxy */;
+		};
+		776163FB25E15BDE002D4BF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 776163D425E15BDD002D4BF1 /* HolaMundo */;
+			targetProxy = 776163FA25E15BDE002D4BF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		776163DE25E15BDD002D4BF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				776163DF25E15BDD002D4BF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		776163E625E15BDE002D4BF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				776163E725E15BDE002D4BF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7761640025E15BDE002D4BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7761640125E15BDE002D4BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7761640325E15BDE002D4BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HolaMundo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.HolaMundo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7761640425E15BDE002D4BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HolaMundo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.HolaMundo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7761640625E15BDE002D4BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HolaMundoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.HolaMundoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HolaMundo.app/HolaMundo";
+			};
+			name = Debug;
+		};
+		7761640725E15BDE002D4BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HolaMundoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.HolaMundoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HolaMundo.app/HolaMundo";
+			};
+			name = Release;
+		};
+		7761640925E15BDE002D4BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HolaMundoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.HolaMundoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HolaMundo;
+			};
+			name = Debug;
+		};
+		7761640A25E15BDE002D4BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HolaMundoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.HolaMundoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HolaMundo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		776163D025E15BDD002D4BF1 /* Build configuration list for PBXProject "HolaMundo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7761640025E15BDE002D4BF1 /* Debug */,
+				7761640125E15BDE002D4BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7761640225E15BDE002D4BF1 /* Build configuration list for PBXNativeTarget "HolaMundo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7761640325E15BDE002D4BF1 /* Debug */,
+				7761640425E15BDE002D4BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7761640525E15BDE002D4BF1 /* Build configuration list for PBXNativeTarget "HolaMundoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7761640625E15BDE002D4BF1 /* Debug */,
+				7761640725E15BDE002D4BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7761640825E15BDE002D4BF1 /* Build configuration list for PBXNativeTarget "HolaMundoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7761640925E15BDE002D4BF1 /* Debug */,
+				7761640A25E15BDE002D4BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		776163E125E15BDD002D4BF1 /* HolaMundo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				776163E225E15BDD002D4BF1 /* HolaMundo.xcdatamodel */,
+			);
+			currentVersion = 776163E225E15BDD002D4BF1 /* HolaMundo.xcdatamodel */;
+			path = HolaMundo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 776163CD25E15BDD002D4BF1 /* Project object */;
+}
