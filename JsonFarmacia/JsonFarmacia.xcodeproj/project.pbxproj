@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77C91D5F262B2318001AF47E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C91D5E262B2318001AF47E /* AppDelegate.swift */; };
+		77C91D61262B2318001AF47E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C91D60262B2318001AF47E /* SceneDelegate.swift */; };
+		77C91D63262B2318001AF47E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C91D62262B2318001AF47E /* ViewController.swift */; };
+		77C91D66262B2318001AF47E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77C91D64262B2318001AF47E /* Main.storyboard */; };
+		77C91D69262B2318001AF47E /* JsonFarmacia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 77C91D67262B2318001AF47E /* JsonFarmacia.xcdatamodeld */; };
+		77C91D6B262B2319001AF47E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77C91D6A262B2319001AF47E /* Assets.xcassets */; };
+		77C91D6E262B2319001AF47E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77C91D6C262B2319001AF47E /* LaunchScreen.storyboard */; };
+		77C91D77262B2835001AF47E /* Medicamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C91D76262B2835001AF47E /* Medicamento.swift */; };
+		77C91D7A262B32FE001AF47E /* DetalleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C91D79262B32FE001AF47E /* DetalleViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		77C91D5B262B2318001AF47E /* JsonFarmacia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JsonFarmacia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77C91D5E262B2318001AF47E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77C91D60262B2318001AF47E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		77C91D62262B2318001AF47E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77C91D65262B2318001AF47E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77C91D68262B2318001AF47E /* JsonFarmacia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JsonFarmacia.xcdatamodel; sourceTree = "<group>"; };
+		77C91D6A262B2319001AF47E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77C91D6D262B2319001AF47E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77C91D6F262B2319001AF47E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77C91D76262B2835001AF47E /* Medicamento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medicamento.swift; sourceTree = "<group>"; };
+		77C91D79262B32FE001AF47E /* DetalleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77C91D58262B2318001AF47E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77C91D52262B2318001AF47E = {
+			isa = PBXGroup;
+			children = (
+				77C91D5D262B2318001AF47E /* JsonFarmacia */,
+				77C91D5C262B2318001AF47E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77C91D5C262B2318001AF47E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77C91D5B262B2318001AF47E /* JsonFarmacia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77C91D5D262B2318001AF47E /* JsonFarmacia */ = {
+			isa = PBXGroup;
+			children = (
+				77C91D5E262B2318001AF47E /* AppDelegate.swift */,
+				77C91D60262B2318001AF47E /* SceneDelegate.swift */,
+				77C91D62262B2318001AF47E /* ViewController.swift */,
+				77C91D64262B2318001AF47E /* Main.storyboard */,
+				77C91D6A262B2319001AF47E /* Assets.xcassets */,
+				77C91D6C262B2319001AF47E /* LaunchScreen.storyboard */,
+				77C91D6F262B2319001AF47E /* Info.plist */,
+				77C91D67262B2318001AF47E /* JsonFarmacia.xcdatamodeld */,
+				77C91D76262B2835001AF47E /* Medicamento.swift */,
+				77C91D79262B32FE001AF47E /* DetalleViewController.swift */,
+			);
+			path = JsonFarmacia;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77C91D5A262B2318001AF47E /* JsonFarmacia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77C91D72262B2319001AF47E /* Build configuration list for PBXNativeTarget "JsonFarmacia" */;
+			buildPhases = (
+				77C91D57262B2318001AF47E /* Sources */,
+				77C91D58262B2318001AF47E /* Frameworks */,
+				77C91D59262B2318001AF47E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JsonFarmacia;
+			productName = JsonFarmacia;
+			productReference = 77C91D5B262B2318001AF47E /* JsonFarmacia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77C91D53262B2318001AF47E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					77C91D5A262B2318001AF47E = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 77C91D56262B2318001AF47E /* Build configuration list for PBXProject "JsonFarmacia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77C91D52262B2318001AF47E;
+			productRefGroup = 77C91D5C262B2318001AF47E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77C91D5A262B2318001AF47E /* JsonFarmacia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77C91D59262B2318001AF47E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C91D6E262B2319001AF47E /* LaunchScreen.storyboard in Resources */,
+				77C91D6B262B2319001AF47E /* Assets.xcassets in Resources */,
+				77C91D66262B2318001AF47E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77C91D57262B2318001AF47E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C91D7A262B32FE001AF47E /* DetalleViewController.swift in Sources */,
+				77C91D63262B2318001AF47E /* ViewController.swift in Sources */,
+				77C91D5F262B2318001AF47E /* AppDelegate.swift in Sources */,
+				77C91D77262B2835001AF47E /* Medicamento.swift in Sources */,
+				77C91D61262B2318001AF47E /* SceneDelegate.swift in Sources */,
+				77C91D69262B2318001AF47E /* JsonFarmacia.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		77C91D64262B2318001AF47E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77C91D65262B2318001AF47E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77C91D6C262B2319001AF47E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77C91D6D262B2319001AF47E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77C91D70262B2319001AF47E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77C91D71262B2319001AF47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77C91D73262B2319001AF47E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JsonFarmacia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jcvh.JsonFarmacia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77C91D74262B2319001AF47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JsonFarmacia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jcvh.JsonFarmacia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77C91D56262B2318001AF47E /* Build configuration list for PBXProject "JsonFarmacia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77C91D70262B2319001AF47E /* Debug */,
+				77C91D71262B2319001AF47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77C91D72262B2319001AF47E /* Build configuration list for PBXNativeTarget "JsonFarmacia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77C91D73262B2319001AF47E /* Debug */,
+				77C91D74262B2319001AF47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		77C91D67262B2318001AF47E /* JsonFarmacia.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				77C91D68262B2318001AF47E /* JsonFarmacia.xcdatamodel */,
+			);
+			currentVersion = 77C91D68262B2318001AF47E /* JsonFarmacia.xcdatamodel */;
+			path = JsonFarmacia.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 77C91D53262B2318001AF47E /* Project object */;
+}
